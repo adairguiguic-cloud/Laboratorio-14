@@ -132,21 +132,21 @@ namespace Lab14AG_1363526
             Console.WriteLine("Lab14 AG - 1363526\n");
 
             // Libros
-            Libro l1 = new Libro("Cien años de soledad", "Gabo", 1967, true);
+            Libro l1 = new Libro("El principito", "Antoine", 1943, true);
             l1.Mostrar();
             l1.Prestar();
             l1.Mostrar();
 
             // Mascotas
-            Mascota m1 = new Mascota("Firulais", "Perro", 3, false);
+            Mascota m1 = new Mascota("Tobby", "Perro", 1, false);
             m1.Mostrar();
             m1.Vacunar();
             m1.Cumplir();
             m1.Mostrar();
 
             // Estudiante
-            decimal[] notas = { 70, 80, 60, 90 };
-            Estudiante e1 = new Estudiante("Ana", 16, "10mo", notas);
+            decimal[] notas = { 82, 84, 67, 76 };
+            Estudiante e1 = new Estudiante("Adair", 16, "9no", notas);
             e1.Mostrar();
             e1.Aprobar();
 
